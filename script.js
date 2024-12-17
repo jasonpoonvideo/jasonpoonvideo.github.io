@@ -103,9 +103,9 @@ stats.forEach(stat => {
 
 // Video Lightbox
 document.addEventListener('DOMContentLoaded', function() {
-    const lightbox = document.querySelector('.video-lightbox');
+    const lightbox = document.querySelector('.lightbox');
     const lightboxContainer = document.querySelector('.video-lightbox-container');
-    const closeButton = document.querySelector('.close-lightbox');
+    const closeButton = document.querySelector('.lightbox-close');
     const playButtons = document.querySelectorAll('.play-button');
 
     function openLightbox(videoId) {
